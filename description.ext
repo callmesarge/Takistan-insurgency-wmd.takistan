@@ -1,0 +1,28 @@
+Author = "Max Delaney \/ npmproductions13 - Edit by WmD"
+onLoadName = "Takistan Insurgency WmD"; 
+onLoadMission = "Version 1.0";
+loadScreen = "loadscreen.paa";
+onLoadMissionTime = False;
+briefingName = "Insurgency";
+
+class Header
+{
+    gameType = Coop;
+    minPlayers = 1; 
+    maxPlayers = 28;
+};
+
+Respawn = 3;
+RespawnDelay = 4;
+disabledAI = true;
+
+#include "=BTC=_revive\=BTC=_respawn.h"
+#include "VAS\menu.hpp"
+#include "taw_vd\dialog.hpp"
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
+};
+
