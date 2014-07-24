@@ -90,17 +90,17 @@ _tempArray=[];
 	
 // MEC Middle East Irregulars (EAST) 	
 	if (_faction==6) then {
-	_InfPool= 	["DRI_Rifleman","DRI_SquadLeader","DRI_MachineGunner","DRI_AutomaticRifleman","DRI_Grenadier","DRI_ATSoldier","DRI_RPG7Soldier","DRI_AASoldier","DRI_Medic","DRI_Marksman","DRI_Crewman","DRI_RPG7Grenadier","DRI_Repair","DRI_Engineer","DRI_Explosives"];
-	_ArmPool= 	["SAA_BTR60"];
+	_InfPool= 	["DRI_RiflemanO","DRI_SquadLeaderO","DRI_MachineGunnerO","DRI_AutomaticRiflemanO","DRI_GrenadierO","DRI_ATSoldierO","DRI_RPG7SoldierO","DRI_AASoldierO","DRI_MedicO","DRI_MarksmanO","DRI_CrewmanO","DRI_RPG7GrenadierO","DRI_RepairO","DRI_EngineerO","DRI_ExplosivesO"];
+	_ArmPool= 	["dri_Offroad_01_armed_FO"];
 	_MotPool= 	["dri_Offroad_01_armed_FO", "dri_Offroad_01s_armed_FO"];
 	_ACHPool= 	[];
 	_CHPool= 	[];
 	_uavPool= 	[];
-	_stPool= 	["RDS_DSHKM_dri","RDS_2b14_82mm_dri","RDS_KORD_high_dri"];
+	_stPool= 	["RDS_DSHKM_driO","RDS_2b14_82mm_driO","RDS_KORD_high_driO"];
 	_shipPool= 	[];
 	_diverPool= 	[];
-	_crewPool=  	["DRI_Crewman"];
-	_heliCrew=  	["DRI_Crewman"];
+	_crewPool=  	["DRI_CrewmanO"];
+	_heliCrew=  	["DRI_CrewmanO"];
 	};
 	
 // ADD CLASSNAMES 	
