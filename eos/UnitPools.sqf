@@ -88,19 +88,19 @@ _tempArray=[];
 	_heliCrew=	["O_mas_afr_Soldier_GL_F","O_mas_afr_soldier_AR_F","O_mas_afr_rusadv1_F"];
 	};
 	
-// Armed African Civilians (Rebel supporters) (EAST) 	
+// MEC Middle East Irregulars (EAST) 	
 	if (_faction==6) then {
-	_InfPool= 	["O_mas_afr_Rebel1_F","O_mas_afr_Rebel2_F","O_mas_afr_Rebel3_F","O_mas_afr_Rebel4_F","O_mas_afr_Rebel5_F","O_mas_afr_Rebel6_F","O_mas_afr_Rebel6a_F","O_mas_afr_Rebel7_F","O_mas_afr_Rebel8_F","O_mas_afr_Rebel8a_F"];
-	_ArmPool= 	["O_mas_afr_GMG_01_F", "O_mas_afr_GMG_01_high_F", "O_mas_afr_HMG_01_F", "O_mas_afr_HMG_01_high_F"];
-	_MotPool= 	["O_mas_afr_Quadbike_01_F", "O_mas_afr_Offroad_01_F", "O_mas_afr_Offroad_01_armed_F"];
+	_InfPool= 	["DRI_Rifleman","DRI_SquadLeader","DRI_MachineGunner","DRI_AutomaticRifleman","DRI_Grenadier","DRI_ATSoldier","DRI_RPG7Soldier","DRI_AASoldier","DRI_Medic","DRI_Marksman","DRI_Crewman","DRI_RPG7Grenadier","DRI_Repair","DRI_Engineer","DRI_Explosives"];
+	_ArmPool= 	["SAA_BTR60"];
+	_MotPool= 	["dri_Offroad_01_armed_FO", "dri_Offroad_01s_armed_FO"];
 	_ACHPool= 	[];
-	_CHPool= 	["O_Heli_Light_02_F","I_Heli_Transport_02_F"];
+	_CHPool= 	[];
 	_uavPool= 	[];
-	_stPool= 	["O_mas_afr_Mortar_01_F"];
-	_shipPool= 	["O_mas_afr_Boat_Transport_01_F"];
+	_stPool= 	["RDS_DSHKM_dri","RDS_2b14_82mm_dri","RDS_KORD_high_dri"];
+	_shipPool= 	[];
 	_diverPool= 	[];
-	_crewPool=  	["O_mas_afr_Rebel1_F","O_mas_afr_Rebel2_F"];
-	_heliCrew=  	["O_mas_afr_Rebel2_F"];
+	_crewPool=  	["DRI_Crewman"];
+	_heliCrew=  	["DRI_Crewman"];
 	};
 	
 // ADD CLASSNAMES 	

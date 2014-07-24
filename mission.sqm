@@ -42,7 +42,6 @@ class Mission
 		"A3_Modules_F",
 		"A3_Data_F",
 		"kyo_MH47E",
-		"sniper_rifle",
 		"hlcweapons_ar15",
 		"hlcweapons_m14",
 		"hlcweapons_m60e4"
@@ -82,7 +81,6 @@ class Mission
 		"A3_Structures_F_Items_Electronics",
 		"A3_Air_F_Gamma_UAV_01",
 		"hafm_hmmwv",
-		"sniper_rifle",
 		"hlcweapons_ar15",
 		"hlcweapons_m14",
 		"hlcweapons_m60e4"
@@ -700,7 +698,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=148;
+		items=146;
 		class Item0
 		{
 			position[]={6093.1826,83.040001,11800.703};
@@ -863,7 +861,7 @@ class Mission
 		};
 		class Item16
 		{
-			position[]={6029.0645,83.040001,11770.947};
+			position[]={6032.3706,83.040001,11776.733};
 			azimut=130.966;
 			id=52;
 			side="EMPTY";
@@ -1836,7 +1834,7 @@ class Mission
 		};
 		class Item111
 		{
-			position[]={6002.1289,83.040001,11747.135};
+			position[]={5997.8311,83.040001,11740.688};
 			azimut=491.724;
 			id=147;
 			side="EMPTY";
@@ -2071,27 +2069,27 @@ class Mission
 		};
 		class Item134
 		{
-			position[]={6047.7061,83.040001,11754.136};
+			position[]={6040.6128,83.040001,11746.993};
 			azimut=133.18536;
 			id=170;
 			side="EMPTY";
-			vehicle="HMMWV2_TOW";
+			vehicle="HMMWV_M1151_M2";
 			skill=0.60000002;
 			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
 		class Item135
 		{
-			position[]={6044.0288,83.040001,11750.634};
+			position[]={6037.2017,83.040001,11743.485};
 			azimut=133.18536;
 			id=171;
 			side="EMPTY";
-			vehicle="HMMWV_M1035";
+			vehicle="HMMWV_M1151_M2";
 			skill=0.60000002;
 			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
 		class Item136
 		{
-			position[]={6040.6128,83.040001,11746.993};
+			position[]={6034.332,83.040001,11740.497};
 			azimut=133.18536;
 			id=172;
 			side="EMPTY";
@@ -2101,7 +2099,7 @@ class Mission
 		};
 		class Item137
 		{
-			position[]={6037.2017,83.040001,11743.485};
+			position[]={6031.5977,83.040001,11737.502};
 			azimut=133.18536;
 			id=173;
 			side="EMPTY";
@@ -2111,27 +2109,27 @@ class Mission
 		};
 		class Item138
 		{
-			position[]={6034.332,83.040001,11740.497};
+			position[]={6028.3218,83.040001,11734.124};
 			azimut=133.18536;
 			id=174;
 			side="EMPTY";
-			vehicle="HMMWV_M1151_M2";
+			vehicle="M1114_AGS_ACR";
 			skill=0.60000002;
 			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
 		class Item139
 		{
-			position[]={6031.5977,83.040001,11737.502};
+			position[]={6024.8726,83.040001,11730.838};
 			azimut=133.18536;
 			id=175;
 			side="EMPTY";
-			vehicle="HMMWV_M1151_M2";
+			vehicle="M1114_AGS_ACR";
 			skill=0.60000002;
 			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
 		class Item140
 		{
-			position[]={6028.3218,83.040001,11734.124};
+			position[]={6021.7305,83.040001,11727.848};
 			azimut=133.18536;
 			id=176;
 			side="EMPTY";
@@ -2141,7 +2139,7 @@ class Mission
 		};
 		class Item141
 		{
-			position[]={6024.8726,83.040001,11730.838};
+			position[]={6018.6948,83.040001,11724.378};
 			azimut=133.18536;
 			id=177;
 			side="EMPTY";
@@ -2151,56 +2149,36 @@ class Mission
 		};
 		class Item142
 		{
-			position[]={6021.7305,83.040001,11727.848};
-			azimut=133.18536;
-			id=178;
-			side="EMPTY";
-			vehicle="M1114_AGS_ACR";
-			skill=0.60000002;
-			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
-		};
-		class Item143
-		{
-			position[]={6018.6948,83.040001,11724.378};
-			azimut=133.18536;
-			id=179;
-			side="EMPTY";
-			vehicle="M1114_AGS_ACR";
-			skill=0.60000002;
-			init="_nul = [this, 2, 1, {}] execVM ""vehrespawn.sqf"";";
-		};
-		class Item144
-		{
 			position[]={6110.6592,83.040001,11763.089};
 			azimut=130.966;
-			id=180;
+			id=178;
 			side="EMPTY";
 			vehicle="m107_box";
 			skill=0.60000002;
 		};
-		class Item145
+		class Item143
 		{
 			position[]={6115.8608,83.040001,11759.058};
 			azimut=130.966;
-			id=181;
+			id=179;
 			side="EMPTY";
 			vehicle="HLC_AR_ammobox";
 			skill=0.60000002;
 		};
-		class Item146
+		class Item144
 		{
 			position[]={6118.4614,83.040001,11756.197};
 			azimut=130.966;
-			id=182;
+			id=180;
 			side="EMPTY";
 			vehicle="HLC_M14_ammobox";
 			skill=0.60000002;
 		};
-		class Item147
+		class Item145
 		{
 			position[]={6121.3228,83.040001,11751.776};
 			azimut=130.966;
-			id=183;
+			id=181;
 			side="EMPTY";
 			vehicle="HLC_M60E4_ammobox";
 			skill=0.60000002;
