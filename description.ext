@@ -1,7 +1,7 @@
 Author = "Max Delaney \/ npmproductions13 - Edit by WmD"
-onLoadName = "Takistan Insurgency WmD"; 
-onLoadMission = "Version 1.0";
-loadScreen = "loadscreen.paa";
+onLoadName = "Takistan Insurgency"; 
+onLoadMission = "Version 1.1";
+loadScreen = "loadscreen_ins.jpg";
 onLoadMissionTime = False;
 briefingName = "Insurgency";
 

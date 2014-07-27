@@ -19,7 +19,7 @@ EXAMPLE CALL - BASTION
 VictoryColor="colorGreen";	// Colour of marker after completion
 hostileColor="colorRed";	// Default colour when enemies active
 bastionColor="colorOrange";	// Colour for bastion marker
-EOS_DAMAGE_MULTIPLIER=2;	// 1 is default
+EOS_DAMAGE_MULTIPLIER=1.1;	// 1 is default
 EOS_KILLCOUNTER=true;		// Counts killed units
 
 null = [["mrkr1"],[1,2],[1,1],[0,0],[0],[0],[0,0],[6,0,300,EAST]] call EOS_Spawn;

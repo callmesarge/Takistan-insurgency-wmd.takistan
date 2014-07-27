@@ -43,9 +43,9 @@ vas_disableSafetyCheck = false;
 
 //If the arrays below are empty (as they are now) all weapons, magazines, items, backpacks and goggles will be available
 //Want to limit VAS to specific weapons? Place the classnames in the array!
-vas_weapons = ["hlc_lmg_M60E4","hlc_rifle_M21","hlc_rifle_M14DMR","hlc_rifle_m14sopmod","hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_Colt727_GL","hlc_rifle_bcmjack","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybase","hlc_rifle_honeybadger","RH_m4","RH_m4_m203","RH_m4_ris","RH_m4_ris_m203","RH_m4a1_ris","RH_m4a1_ris_m203","RH_m4sbr","RH_m4sbr_g","RH_m4sbr_b","RH_m16a1","RH_m16a1gl","RH_m16a2","RH_m16a2gl","RH_m16a3","RH_m16a4","RH_m16a4gl","RH_m16a4_m","RH_mk12mod1","RH_samr","RH_ar10","hgun_mas_m9_F", "hgun_mas_usp_l_F", "mas_launch_maaws_F", "mas_launch_M136_F", "mas_launch_Stinger_F", "Binocular", "Rangefinder"];
+vas_weapons = ["hlc_lmg_M60E4","hlc_rifle_M21","hlc_rifle_M14DMR","hlc_rifle_m14sopmod","hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_Colt727_GL","hlc_rifle_bcmjack","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybase","hlc_rifle_honeybadger","RH_m4","RH_m4_m203","RH_m4_ris","RH_m4_ris_m203","RH_m4a1_ris","RH_m4a1_ris_m203","RH_m4sbr","RH_m4sbr_g","RH_m4sbr_b","RH_m16a1","RH_m16a1gl","RH_m16a2","RH_m16a2gl","RH_m16a3","RH_m16a4","RH_m16a4gl","RH_m16a4_m","RH_mk12mod1","RH_samr","RH_ar10","hgun_mas_m9_F", "hgun_mas_usp_l_F", "mas_launch_maaws_F", "mas_launch_M136_F", "mas_launch_Stinger_F", "Binocular", "Rangefinder","SMG_01_F"];
 //Want to limit VAS to specific magazines? Place the classnames in the array!
-vas_magazines = ["hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_20Rnd_762x51_B_M14","hlc_20rnd_762x51_T_M14","hlc_50rnd_762x51_M_M14","29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_S","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","RH_20Rnd_762x51_AR10","30rnd_556x45_STANAG","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","RH_30Rnd_556x45_Mk262","1Rnd_HE_Grenade_shell","15Rnd_mas_9x21_Mag", 
+vas_magazines = ["hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_20Rnd_762x51_B_M14","hlc_20rnd_762x51_T_M14","hlc_50rnd_762x51_M_M14","29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_S","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","RH_20Rnd_762x51_AR10","30rnd_556x45_STANAG","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","RH_30Rnd_556x45_Mk262","1Rnd_HE_Grenade_shell","15Rnd_mas_9x21_Mag", "30Rnd_45ACP_Mag_SMG_01", "30Rnd_45ACP_Mag_SMG_01_Tracer_Green",
 "12Rnd_mas_45acp_Mag", 
 "mas_MAAWS", 
 "mas_M136", 
@@ -60,6 +60,7 @@ vas_magazines = ["hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_T_M60E4","hlc_10
 "Chemlight_green", 
 "Chemlight_red", 
 "Chemlight_blue", 
+"3Rnd_UGL_FlareCIR_F","3Rnd_UGL_FlareRed_F","3Rnd_UGL_FlareWhite_F","3Rnd_UGL_FlareYellow_F","3Rnd_SmokeBlue_Grenade_shell","3Rnd_SmokeGreen_Grenade_shell","3Rnd_SmokeOrange_Grenade_shell","3Rnd_SmokePurple_Grenade_shell","3Rnd_SmokeRed_Grenade_shell","3Rnd_Smoke_Grenade_shell","3Rnd_SmokeYellow_Grenade_shell","3Rnd_HE_Grenade_shell",
 "DemoCharge_Remote_Mag", 
 "SatchelCharge_Remote_Mag", 
 "ATMine_Range_Mag", 
@@ -79,19 +80,7 @@ vas_items = ["hlc_rifle_m14sopmod","hlc_muzzle_snds_M14","hlc_optic_artel_m14","
 "NVGoggles_mas_mask3", 
 "NVGoggles_mas", 
 "NVGoggles_o_mas", 
-"H_mas_mar_HelmetB_d", 
-"H_mas_mar_HelmetB_paint_d", 
-"H_mas_mar_HelmetB_light_d", 
-"H_mas_mar_HelmetBind_d", 
-"H_mas_mar_Booniehat_des", 
-"H_mas_mar_Balaclava", 
-"H_mas_mar_Balaclava_ht", 
-"H_mas_mar_Balaclava_b", 
-"H_mas_mar_Balaclava_ht_b", 
-"H_mas_mar_pro_ht_d", 
-"H_mas_mar_off_d", 
-"H_mas_mar_bandana_d", 
-"H_mas_mar_HelmetB_plain_d", 
+"H_mas_mar_HelmetB", "H_mas_mar_HelmetB_paint", "H_mas_mar_HelmetB_light", "H_mas_mar_HelmetB_d", "H_mas_mar_HelmetB_paint_d", "H_mas_mar_HelmetB_light_d", "H_mas_mar_HelmetB_v", "H_mas_mar_HelmetB_paint_v", "H_mas_mar_HelmetB_light_v", "H_mas_mar_HelmetB_g", "H_mas_mar_HelmetB_paint_g", "H_mas_mar_HelmetB_light_g", "H_mas_mar_HelmetB_b", "H_mas_mar_HelmetB_paint_b", "H_mas_mar_HelmetB_light_b", "H_mas_mar_HelmetB_w", "H_mas_mar_HelmetB_paint_w", "H_mas_mar_HelmetB_light_w", "H_mas_mar_helmetv_us", "H_mas_mar_helmetd_us", "H_mas_mar_helmetw_us", "H_mas_mar_helmetvgog_us", "H_mas_mar_helmetdgog_us", "H_mas_mar_helmetwgog_us", "H_mas_mar_helmetv_wrap_us", "H_mas_mar_helmetd_wrap_us", "H_mas_mar_helmetw_wrap_us", "H_mas_mar_helmetvgog_wrap_us", "H_mas_mar_helmetdgog_wrap_us", "H_mas_mar_helmetwgog_wrap_us", "H_mas_mar_HelmetBind_v", "H_mas_mar_HelmetBind_d", "H_mas_mar_HelmetBind_w", "H_mas_mar_Cap_headphones", "H_mas_mar_Woolhat", "H_mas_mar_Woolhat_c", "H_mas_mar_Woolhat_w", "H_mas_mar_Cap", "H_mas_mar_Booniehat_wood", "H_mas_mar_Booniehat_rgr", "H_mas_mar_Booniehat_des", "H_mas_mar_Balaclava", "H_mas_mar_Balaclava_ht", "H_mas_mar_Balaclava_b", "H_mas_mar_Balaclava_ht_b", "H_mas_mar_helmet_ht", "H_mas_mar_woolhat_ht", "H_mas_mar_pro_ht", "H_mas_mar_pro_ht_v", "H_mas_mar_pro_ht_d", "H_mas_mar_pro_ht_b", "H_mas_mar_off", "H_mas_mar_off_v", "H_mas_mar_off_d", "H_mas_mar_off_g", "H_mas_mar_helmet_us", "H_mas_mar_helmet_bala_us", "H_mas_mar_helmet_wrap_us", "H_mas_mar_helmet_l_us", "H_mas_mar_helmet_l_bala_us", "H_mas_mar_helmet_g_us", "H_mas_mar_helmet_g_bala_us", "H_mas_mar_helmet_g_wrap_us", "H_mas_mar_helmet_pro_bala", "H_mas_mar_helmet_pro_bala_b", "H_mas_mar_headset_b", "H_mas_mar_revcapheadset_b", "H_mas_mar_bandana", "H_mas_mar_bandana_v", "H_mas_mar_bandana_d", "H_mas_mar_HelmetB_camo", "H_mas_mar_HelmetB_plain", "H_mas_mar_HelmetB_plain_d",
 "U_mas_mar_B_CombatUniform_des", 
 "U_mas_mar_B_CombatUniform_des_tshirt", 
 "U_mas_mar_B_CombatUniform_des_vest", 
@@ -104,13 +93,16 @@ vas_items = ["hlc_rifle_m14sopmod","hlc_muzzle_snds_M14","hlc_optic_artel_m14","
 "V_mas_mar_PlateCarrier2_rgr_d", 
 "V_mas_mar_PlateCarrierGL_rgr_d", 
 "V_mas_mar_ChestrigB_rgr_d", 
+"tf_anprc152","tf_anarc210","tf_rt1523g","tf_rf7800str",
 "B_UavTerminal", 
 "FirstAidKit", 
 "I_UavTerminal", 
 "ItemCompass", 
 "ItemGPS", 
+"AGM_EarBuds","AGM_Bandage","AGM_Morphine","AGM_Epipen","AGM_Bloodbag","AGM_UAVBattery",
 "Medikit", 
 "O_UavTerminal", 
+"Kio_Balaclava_blk","Kio_Balaclava_blkSkull","Kio_Balaclava_grn","Kio_Balaclava_des","Kio_Balaclava_multicam","Kio_Balaclava_hex","Kio_Balaclava_wcam","Kio_Balaclava_urbcam",
 "ToolKit", 
 "MineDetector","FHQ_optic_ACOG","FHQ_optic_ACOG_tan","FHQ_optic_AIM","FHQ_optic_AIM_tan","FHQ_optic_TWS3050","FHQ_optic_HWS","FHQ_optic_HWS_tan","FHQ_optic_HWS_G33","FHQ_optic_HWS_G33_tan","FHQ_optic_MicroCCO","FHQ_optic_MicroCCO_tan","FHQ_optic_MicroCCO_low","FHQ_optic_MicroCCO_low_tan","FHQ_optic_LeupoldERT","FHQ_optic_LeupoldERT_tan","FHQ_acc_ANPEQ15","FHQ_acc_ANPEQ15_black","FHQ_acc_LLM01L","FHQ_acc_LLM01F","FHQ_optic_VCOG","FHQ_optic_VCOG_tan","FHQ_optic_AC11704","FHQ_optic_AC11704_tan","FHQ_optic_AC12136","FHQ_optic_AC12136_tan","FHQ_optic_MARS","FHQ_optic_MARS_tan","shemagh_faceD","shemagh_faceOD","shemagh_neckD","shemagh_neckOD","Head_Wrap","Head_WrapTAN","Tact_HoodTAN","Tact_HoodMC","Tact_HoodMAR","Tact_HoodACU","Tact_HoodOD","Ghost_ReconOD","Ghost_ReconBLK","Ghost_ReconTAN"];
 //Want to limit backpacks? Place the classnames in the array!

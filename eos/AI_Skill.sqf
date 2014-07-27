@@ -1,8 +1,8 @@
 // INFANTRY SKILL
 _InfskillSet = [
-0.30,        // aimingAccuracy
-0.45,        // aimingShake
-.7,        // aimingSpeed
+0.20,        // aimingAccuracy
+0.55,        // aimingShake
+.8,        // aimingSpeed
 1,         // spotDistance
 .5,        // spotTime
 1,        // courage
